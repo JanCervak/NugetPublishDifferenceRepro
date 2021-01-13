@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>NugetPublishDifferenceRepro</PackageId>
     <PackageVersion>1.$([System.DateTime]::Now.ToString('yyyyMMdd.HHmm'))</PackageVersion>
-    <GeneratePackageOnBuild Condition="'$(GeneratePackageOnBuild)'==''">false</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <IncludeBuildOutput>false</IncludeBuildOutput>
   </PropertyGroup>
 
